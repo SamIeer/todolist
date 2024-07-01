@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+#container{
+    border: 2px solid black;
+    width: 50rem;
+    height: 50rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+}
+
+
+#new-task{
+    width: 50%; height: 5%;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+#TaskList{
+    list-style-type: none;
+    border: none;
+    background-color:  rgb(163, 171, 173);
+    border-radius: 2rem;
+    height: 50%;
+    width: 50%;
+    margin-left: 11rem;
+    overflow: auto;
+}
+
+#TaskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#Add_Task{
+    width:20%;  height: 3rem; 
+}
+
+
+
+#TaskList li button {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Make height equal to width */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Make the button circular */
+    border: none; /* Optional: remove border */
+    color: white; /* Optional: set text color */
+    cursor: pointer; /* Optional: change cursor to pointer */
+    font-size: 25px;
+}
+#TaskList li p {
+    font-size: 1.5rem; 
+}
+#TaskList li input {
+    width: 25px; /* Set the desired width */
+    height: 25px;
+}
+
+/* for editing the task */
+#updatetsk {
+    width: 35%;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+#updatebtn{
+    width: 10%;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
