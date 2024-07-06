@@ -7,7 +7,7 @@ const uptsk = document.getElementById('edit-section')
 Taskbtn.addEventListener('click',() => taskadd());
 
 function taskadd(){
-        const input = document.getElementById('new-task');
+        const input = document.getElementById('typtsk');
         let inputvalue = input.value;
         
         if (inputvalue.trim() !== "") {
