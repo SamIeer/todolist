@@ -16,7 +16,6 @@ function taskadd(){
             const list = document.getElementById('TaskList');
             list.appendChild(li);
             
-            
             const task = document.createElement('p')
             task.innerText = inputvalue;
             input.value = " ";
