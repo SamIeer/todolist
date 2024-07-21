@@ -27,7 +27,7 @@
 @media (max-width: 480px) {
     #container {
         width: 20rem;
-        height: 40rem;
+        height: 36rem;
     }
     h1 {
         font-size: 3rem;}
@@ -39,11 +39,11 @@
     }
     #Add_Task {
         width: 20%;
-        height: 2.5rem; border-radius: 50%;}
+        height: 2rem; border-radius: 50%;}
 
     #new-task {
-        margin-left: 101px;
-        width: 40%;
+        margin-left: 100px;
+        width: 50%;
         height: 4rem;
     }
 
