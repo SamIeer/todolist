@@ -1,50 +1,50 @@
 @media (max-width: 800px) {
     
     #container {
-        width: 40rem;
-        height: 60rem;
+        width: 25rem;
+        height: 40rem;
     }
     h1 {
         font-size: 4rem;}
 
     #TaskList {
-        width: 70%;
-        max-width: 70%;
-        margin-left: 5rem;
+        width: 74%;
+        max-width: 75%;
+        margin-left: 2rem;
     }
     #Add_Task {
         width: 20%;
         height: 2.5rem; border-radius: 50%;}
 
     #new-task {
-        margin-left: 170px;
+        margin-left: 95px;
         width: 50%;
-        height: 5rem;
+        height: 4rem;
     }
 
 }
 
 @media (max-width: 480px) {
     #container {
-        width: 25rem;
-        height: 55rem;
+        width: 20rem;
+        height: 40rem;
     }
     h1 {
-        font-size: 3.5rem;}
+        font-size: 3rem;}
 
     #TaskList {
-        width: 85%;
-        max-width: 70%;
-        margin-left: 3rem;
+        width: 80%;
+        max-width: 78%;
+        margin-left: 1rem;
     }
     #Add_Task {
         width: 20%;
         height: 2.5rem; border-radius: 50%;}
 
     #new-task {
-        margin-left: 100px;
-        width: 50%;
-        height: 6rem;
+        margin-left: 101px;
+        width: 40%;
+        height: 4rem;
     }
 
 }
