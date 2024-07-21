@@ -34,14 +34,21 @@ To delete a task, click the "🗑️" button next to the task.
 Updating a Task
 To update a task, click the "✍️" button next to the task.
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please follow these steps to contribute:
-Fork the repository.
-Create a new branch:
-   git checkout -b feature-branch
-Make your changes and commit them:
-   git commit -m 'Add new feature'
-Push to the branch:
-   git push origin feature-branch
+
+1. **Fork the repository**: Click the "Fork" button at the top right of this repository's GitHub page.
+
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature-branch
+3.**Make your changes and commit them**:
+    ```bash
+     git commit -m 'Add new feature`
+
+4.**Push to the branch**:
+    ```bash
+    git push origin feature-branch
 
 This project is licensed under the MIT License - see the LICENSE file for details.
