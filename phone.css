@@ -17,7 +17,7 @@
         height: 2.5rem; border-radius: 50%;}
 
     #new-task {
-        margin-left: 150px;
+        margin-left: 170px;
         width: 50%;
         height: 5rem;
     }
@@ -26,19 +26,25 @@
 
 @media (max-width: 480px) {
     #container {
-        width: 90%;
-        height: auto;
-        max-width: 20rem;
-        max-height: 20rem;
+        width: 25rem;
+        height: 55rem;
     }
+    h1 {
+        font-size: 3.5rem;}
 
     #TaskList {
-        width: 90%;
-        max-width: 100%;
+        width: 85%;
+        max-width: 70%;
+        margin-left: 3rem;
     }
+    #Add_Task {
+        width: 20%;
+        height: 2.5rem; border-radius: 50%;}
 
     #new-task {
-        margin-left: 0;
-        width: 80%;
+        margin-left: 100px;
+        width: 50%;
+        height: 6rem;
     }
+
 }
